@@ -80,18 +80,27 @@
       },
       "routes": [
         {
-          "name": "RouteApp",
-          "pattern": "RouteApp",
-          "target": ["TargetApp"]
+          "name": "Home",
+          "pattern": "",
+          "target": ["Home"]
+        },
+        {
+          "name": "Detail",
+          "pattern": "movies/{movieId}/appointments/{appointmentsId}",
+          "target":["Detail"]
         }
       ],
       "targets": {
-        "TargetApp": {
+        "Home": {
           "viewType": "XML",
           "transition": "slide",
           "clearControlAggregation": false,
-          "viewId": "App",
+          "viewId": "Home",
           "viewName": "App"
+        },
+        "Detail": {
+          "viewType": "XML",
+          "viewName": "Detail"
         }
       }
     }
