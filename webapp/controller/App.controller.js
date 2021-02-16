@@ -10,6 +10,10 @@ sap.ui.define([
 		return Controller.extend("opensap.ui5week2.controller.App", {
 			onInit: function () {
 
+			},
+
+			onPress: function () {
+				
 			}
 		});
 	});
