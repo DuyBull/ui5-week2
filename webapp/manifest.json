@@ -55,6 +55,10 @@
         "settings": {
           "bundleName": "opensap.ui5week2.i18n.i18n"
         }
+      },
+      "movies": {
+        "type": "sap.ui.model.json.JSONModel",
+        "uri": "model/Movies.json"
       }
     },
     "resources": {
